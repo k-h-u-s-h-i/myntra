@@ -13,6 +13,6 @@ pipeline {
 		stage('Deployment'){
 		    steps {
 			
-			sh 'cp target/LoginWebApp.war swapnil@127.0.1.1:/home/khushi/Documents/GRRAS-MavenJenkins/apache-tomcat-9.0.70/webapps'
+			sh 'cp target/myntra.war khushi@127.0.1.1:/home/khushi/Documents/GRRAS-MavenJenkins/apache-tomcat-9.0.70/webapps'
 	}
 }}}
